@@ -1,3 +1,7 @@
+<script>
+    import Page from "../+page.svelte";
+
+</script>
 <div class="container">
     <slot/>
 </div>
