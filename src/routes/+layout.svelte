@@ -2,9 +2,13 @@
     <div class="nav-container">
         <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия</a>
         <div class="nav-links">
-            {#if link.isShow}
+            <!--{#if link.isShow}
             <a href={link.href} class="link">{link.title}</a>
-            {/if}
+            {/if}--> 
+            <a href="/about" class="link">Обо мне</a>
+            <a href="/blog" class="link">Блог</a>
+            <a href="/project" class="link">Портфолио</a>
+            <a href="/contact" class="link">Контакты</a>
         </div>
     </div>
 </nav>
