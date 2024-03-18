@@ -18,6 +18,10 @@
     </div>
 </div>
 
+<script>
+    import {routes} from './routes';
+</script>
+
 <style>
     .container{
         margin: 50px auto;
