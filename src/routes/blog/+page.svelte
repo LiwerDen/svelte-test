@@ -1,11 +1,3 @@
-<script>
-    import Page from "../+page.svelte";
-
-</script>
-<div class="container">
-    <slot/>
-</div>
-+page.svelte
 <svelte:head>
     <title>Блок</title>
 </svelte:head>
