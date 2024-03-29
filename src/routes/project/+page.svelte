@@ -1,45 +1,57 @@
 <svelte:head>
-    <title>Портфолио</title>
+    <title>О нас</title>
 </svelte:head>
 
 <div class="container">
-    <h1>Мои проекты</h1>
-    <div class="apps">
-        {#each routes as page}
-            <div class="app">
-                <h2>{page.title}</h2>
-                <p>{page.body}</p>
-                <p class="readmore">
-                    <a href={'/project/apps/${page.id'} class="link">
-                        Читать далее
-                    </a>
-                </p>
-            </div>
-        {/each}
+    <div class="head-about">
+        О компании
+    </div>
+    <div class="about">
+        «Liwer Sawmill» 
+    </div>
+    <div class="about-text">
+        <strong>Liwer Sawmill: Ваш Надежный Поставщик Древесины</strong> <br>
+        Liwer Sawmill - новаторская лесопилка, обеспечивающая качественную продукцию и надежные решения для вашего бизнеса. Мы стремимся быть ведущим поставщиком древесины, предлагая высокие стандарты качества, эффективность производства и инновационные подходы к обработке. <br>
+        Наши Принципы: <br>
+        Мы гордимся честностью, прозрачностью и устойчивым развитием. Каждый этап нашей деятельности соответствует строгим стандартам экологической ответственности и социальной устойчивости. <br>
+        Наша Продукция: <br>
+        Мы специализируемся на производстве высококачественной древесины различных пород, предлагая широкий ассортимент продукции для промышленности и строительства. <br>
+        Наша Команда: <br>
+        Наш успех определяется высококвалифицированной командой профессионалов, готовых предоставить выдающийся сервис и поддержку. <br>
+        Наши Ценности: <br>
+        Мы ценим долгосрочные отношения с клиентами, партнерами и сообществом, стремясь к процветанию всех сторон. <br>
+        Liwer Sawmill - ваш партнер в обеспечении качественной древесины и инновационных решений. Свяжитесь с нами сегодня, чтобы узнать больше о наших возможностях. 
     </div>
 </div>
 
-<script>
-    import {routes} from './routes';
-</script>
 
 <style>
     .container{
         margin: 50px auto;
-        max-width: 800px;
+        max-width: 1500px;
         padding: 0 20px;
     }
-    .apps{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+    .about{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 2.5rem;
     }
-    .app{
-        border: 1px solid #ddd;
-        padding: 10px;
-        box-shadow: 0 0 10px #eee;
+    .about-text{
+        text-align: center;
+        margin-left: 18%;
+        margin-right: 18%;
+        
+        color: white;
+        font-weight: 700;
+        font-size: 1.4rem;
     }
-    .link{
-        color: rgb(10, 10, 139);
+    .head-about{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        font-weight: 700;
+        font-size: 3rem;
     }
 </style>

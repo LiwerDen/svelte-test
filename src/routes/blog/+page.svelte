@@ -1,41 +1,59 @@
 <svelte:head>
-    <title>Блок</title>
+    <title>Услуги</title>
 </svelte:head>
 
 <div class="container">
-    <h1>Мои статьи</h1>
-    <div class="blogposts">
-        {#each routes as page}
-            <div class="post">
-                <h2>{page.title}</h2>
-                <p>{page.body}</p>
-                <p class="readmore">
-                    <a href="{'/blog/posts/$page.id'}">
-                    Читать далее</a>
-                </p>
-            </div>
-        {/each}
+    <div class="head-uslugi">
+        Liwer Sawmill предоставляет услуги:
+    </div>
+    <div class="uslugi">
+        <ul>
+            <li>Доставка пиломатериалов и фанеры</li>
+            <li>Нарезка пиломатериалов</li>
+            <li>Распиловка фанеры</li>
+            <li>Импрегнирование</li>
+            <li>Антисептирование</li>
+            <li>Антипирирование</li>
+        </ul>
+        <div class="uslugi-imfo">
+            Антисептирование, антипирирование и импрегнирование – это обработка древесины специальным составом (септиком или антипиреном), которое обеспечивает огнебиозащиту древесины. В случае импрегнирования пропитка производится под давлением. 
+        </div>
     </div>
 </div>
-
-<script>
-    import {routes} from './routes';
-</script>
 
 <style>
     .container{
         margin: 50px auto;
-        max-width: 800px;
+        max-width: 1500px;
         padding: 0 20px;
     }
-    .blogposts{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 20px;
+    .uslugi-imfo {
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+    color: white;
+    font-size: 1.5rem;
     }
-    .post{
-        border: 1px solid #ddd;
-        padding: 10px;
-        box-shadow: 0 0 10px #eee;
+    .head-uslugi{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    }
+    ul{
+            display: block; 
+            text-align: center;   
+            margin-top: 35px;
+            margin-bottom: 100px;        
+        }
+    li{
+        list-style-type: none;
+        padding-left: 35px;
+        font-size: 24px;
+        font-weight: 700;
+        margin-right: 40px;
+        color: white;
+        padding: 5px;
     }
 </style>

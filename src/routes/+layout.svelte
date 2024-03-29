@@ -22,6 +22,12 @@
     .nav-links{
         font-weight: 700px;
         font-size: 1rem;
+        color: white;
+    }
+    .link,.nav-logo{
+        font-weight: 700px;
+        font-size: 1.5rem;
+        color: white;
     }
 </style>
 
