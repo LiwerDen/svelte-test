@@ -19,6 +19,10 @@
         max-width: 1400px;
         margin: 50px auto;
     }
+    .nav-links{
+        font-weight: 700px;
+        font-size: 1rem;
+    }
 </style>
 
 <script>

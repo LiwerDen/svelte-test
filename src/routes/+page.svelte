@@ -6,17 +6,13 @@
     <div class="info">
         <div class="animate-background">
             <div class="container info-container">
-                <div class="info-text">
-                    <h1>
-                        <p class="animate-text-1">Lorem ipsum dolor sit.</p>
-                        <p class="text-2">Lorem ipsum dolor sit amet.</p>
-                    </h1>
+                <div class="welcome">
+                    Добро пожаловать на <br>
+                    <span>Нашу Лесопилку</span> <br>
+                    <div class="welcome-down-text">
+                        Liwer Sawmill
+                    </div>
                 </div>
-                <h2 class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo nesciunt voluptates non enim ea velit harum? Tempore esse eos blanditiis praesentium.</h2>
-                <div class="scroll-button animate-scroll" style="color: black;">
-                    <a href="/about">Click Here</a>
-                    <div class="arrow">	→</div>
-                </div> 
             </div>
         </div>
     </div>
@@ -40,35 +36,22 @@
         max-width: 1400px;
         margin: 190px 0 0 2.5rem;
     }
-    .info h1{
-        font-size: 4rem;
-        margin: 0;
+    .welcome {
+    text-align: center;
+    margin-top: 250px;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
     }
-    .info h1 p{
-        position: relative;
-        font: inherit;
-        margin: 0;
-        text-align: left;
-        line-height: 130%;
-        width: fit-content;
-        font-weight: 800;
-        letter-spacing: -0.03em;
-    }
-    .info h2{
-        max-width: 65ch;
-        font-weight: 200;
-        margin-top: 0.50rem;
-    }
-    .info .info-text{
-        position: relative;
-    }
-    .scroll-button{
-        display: flex;
-        border: none;
-        outline: none;
-        cursor: pointer;
-    }
-    .scroll-button .arrow{
-        margin-left: 0.50rem;
-    }
+    .welcome span {
+        font-size: 80px;
+        font-weight: 700;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    .welcome-down-text {
+        font-weight: 600;
+        font-size: 55px;
+        margin-top: 10px;
+        }
 </style>
