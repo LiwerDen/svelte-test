@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Пролубщиков Денис</title>
+    <title>Liwer Sawmill</title>
 </svelte:head>
 
 <div class="container">
@@ -21,8 +21,6 @@
         </div>
     </div>
 </div>
-
-<div class="background-div"></div>
 
 
 <style>
@@ -60,13 +58,6 @@
         max-width: 65ch;
         font-weight: 200;
         margin-top: 0.50rem;
-    }
-    .background-div{
-        background-color: #ecebe8;
-        
-        width: 100%;
-        height: 56vh;
-        margin: -205px auto;
     }
     .info .info-text{
         position: relative;
