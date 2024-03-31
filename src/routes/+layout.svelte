@@ -24,7 +24,7 @@
         font-size: 1rem;
         color: white;
     }
-    .link,.nav-logo{
+    .link,.nav-logo,.nav-links,.nav{
         font-weight: 700px;
         font-size: 1.5rem;
         color: white;
